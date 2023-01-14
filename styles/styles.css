@@ -13,6 +13,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/* header */
+.header-container{
+    width: 1262px;
+}
+
+/* main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+  }
 /* button */
 .btn-primary{
     border: none;
@@ -34,7 +46,19 @@ body{
     color: #3A3A3A;
 }
 
+.img-tittle{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    font-feature-settings: 'liga' off;
+    color: #18191F;
+}
+
 /* nav */
+/* header{
+    width: 100%;
+    height: 100vh;
+} */
 
 nav{
     display: flex;
@@ -42,9 +66,7 @@ nav{
     align-items: center;
     margin-top: 95px;
 }
-.header-container{
-    width: 1262px;
-}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -89,6 +111,10 @@ nav{
     align-items: center;
     gap: 133px;
 }
+.influencer{
+    margin-right: 0;
+    padding-right: 118px;
+}
 .influencer-tittle{
     font-weight: 700;
     font-size: 52px;
@@ -108,11 +134,90 @@ nav{
 .btn-influencer .right-arow{
     padding-left: 5px;
 }
-.camera-img{
+.camera{
+    width: 475px;
+    height: 475px;
     background: url("../images/Circle\ design.svg") no-repeat center center/cover;
+    padding-left: 38px;
 }
+
 .camera-img img {
-    width: 422px;
-    height: 414px;
-    
+    width: 436px;
+    height: 471px;
+}
+
+/* ecomarce-site-content */
+
+.ecomarce-site-main-contain{
+    margin-top: 95px;
+    margin-bottom: 100px;
+}
+
+.ecomarce-site-contain{
+    width: 1110px;
+    height: 110px;
+   border-top: 1px solid rgba(128, 128, 128, .3);
+   border-bottom: 1px solid rgba(128, 128, 128, .3);
+}
+
+.ecomarce-site{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.ecomarce-site img{
+    margin-top: 40px;
+}
+
+/* collection styles */
+.collection-main-content{
+    width: 1047px;
+}
+.collection-tittle{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 70px;
+    color: #3A3A3A;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.collections article{
+    padding: 17px 14px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.collections article img{
+    width: 300px;
+    border-radius: 5px;
+}
+.colllections article .price{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+ article .fallid{
+    font-size: 11px;
+    color: #FB8200;
+    /* padding-right: 10px; */
+}
+
+article span{
+    padding-left: 10px;
+}
+.collection-description{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 143%;
+    letter-spacing: 0.018em;
+    color: #787885;
 }
