@@ -25,6 +25,8 @@ main{
     align-items: center;  
     flex-direction: column;
   }
+
+
 /* button */
 .btn-primary{
     border: none;
@@ -42,11 +44,23 @@ main{
     font-size: 16px;
     line-height: 24px;
     color: rgba(224, 44, 109, 0.87);
+    background: #FFFFFF;
+}
+.btn-third{
+    padding: 10px 56px 10px 24px;
+    border: none;
+    background: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
-.btn-influencer .right-arow, .btn-collection .right-arow{
+.btn-influencer .right-arow, .btn-collection .right-arow, .btn-third .right-arow{
     padding-left: 5px;
 }
+
+
 
 /* all tittle */
 .nav-tittle{
@@ -64,7 +78,20 @@ main{
     font-feature-settings: 'liga' off;
     color: #18191F;
 }
-
+.product-tittle{
+    margin-top: 23px;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.footer-tittle{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
 /* nav */
 /* header{
     width: 100%;
@@ -182,6 +209,7 @@ nav{
 .collection-main-content{
     width: 1047px;
 }
+
 .collection-tittle{
     font-weight: 600;
     font-size: 28px;
@@ -234,4 +262,76 @@ article span{
 .btn-collection{
     margin-top: 50px;
     text-align: end;
+}
+
+/* featured styles */
+.featured-main-content{
+    width: 1110px;
+}
+.featured-content{
+    display: flex;
+    gap: 96px;
+    /* justify-content: center;
+    align-items: center; */
+    margin-top: 96px;
+}
+
+.feature-img img{
+    width: 404px;
+    height: 270px;
+    border-radius: 5px;
+}
+
+.product-description{
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.btn-product{
+    margin-top: 16px;
+}
+
+/* footer styles */
+footer{
+    background: rgb(19, 21, 26);
+}
+.footer-main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-content{
+    width: 265px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-copy-right, .footer-reserved{
+    margin-top: 3px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #D9DBE1;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 17px;
+    color: #FFFFFF;
+    
+}
+.social .footer-social{
+    /* padding: 12px; */
+    width: 47px;
+    background-color: #808080;
+   border-radius: 50px;
+   padding: 5px;
+}
+.social .footer-social i{
+    border-radius: 50px;
 }
