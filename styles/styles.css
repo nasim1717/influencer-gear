@@ -30,8 +30,8 @@ nav{
     align-items: center;
     margin-top: 95px;
 }
-.nav-container{
-    width: 1080px;
+.header-container{
+    width: 1189px;
 }
 .navbar{
     display: flex;
@@ -61,4 +61,27 @@ nav{
     margin-right: 34px;
     width: 36px;
     height: 36px;
+}
+
+
+/* influencer conatiner styles */
+
+.influencer-main-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.influencer-container{
+    display: flex;
+    align-items: center;
+    gap: 133px;
+}
+.camera-img{
+    background: url("../images/Circle\ design.svg") no-repeat center center/cover;
+}
+.camera-img img {
+    width: 422px;
+    height: 414px;
+    
 }
